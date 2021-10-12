@@ -99,7 +99,7 @@ void* memmgr_alloc(ulong nbytes)
     ulong nquantas = (nbytes + sizeof(mem_header_t) - 1) / sizeof(mem_header_t) + 1;
 
     // First alloc call, and no free list yet ? Use 'base' for an initial
-    // denegerate block of size 0, which points to itself
+    // degenerate block of size 0, which points to itself
     // 
     if ((prevp = freep) == 0)
     {
