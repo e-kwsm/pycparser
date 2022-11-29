@@ -42,7 +42,7 @@ setup(
         It parses C code into an AST and can serve as a front-end for
         C compilers or analysis tools.
     """,
-    license='BSD',
+    license='BSD-3-Clause',
     version='2.21',
     author='Eli Bendersky',
     maintainer='Eli Bendersky',
@@ -62,6 +62,7 @@ setup(
         'Programming Language :: Python :: 3.8',
         'Programming Language :: Python :: 3.9',
         'Programming Language :: Python :: 3.10',
+        'Programming Language :: Python :: 3.11',
     ],
     python_requires=">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*",
     packages=['pycparser', 'pycparser.ply'],
